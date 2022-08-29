@@ -11,18 +11,3 @@ linkedin_username: "Kamlesh Pandey"
 ###########################################################################################
 theme: "minima"
 
-kramdown:
-  syntax_highlighter_opts:
-    disabl: true
-    
-titile_from_headings:
-   strip_title: true
-   collections: true
-   
- defaults:
-   - scope:
-      path: ""
-      type: post
-    values: 
-        tags: Other
-    
