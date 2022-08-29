@@ -1,3 +1,28 @@
 title: " Data Science Blog"
 author: "Kamlesh Pandey"
-description: " I share my understanding regarding Data Science and machine Learning "
+description: " :) "
+
+
+# Email and user media
+emai: "kpandey@ncsu.edu"
+linkedin_username: "Kamlesh Pandey"
+
+
+###########################################################################################
+theme: "minima"
+
+kramdown:
+  syntax_highlighter_opts:
+    disabl: true
+    
+titile_from_headings:
+   strip_title: true
+   collections: true
+   
+ defaults:
+   - scope:
+      path: ""
+      type: post
+    values: 
+        tags: Other
+    
