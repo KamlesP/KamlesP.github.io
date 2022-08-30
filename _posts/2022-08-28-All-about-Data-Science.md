@@ -13,5 +13,19 @@ A Data scienctist is not just having knowledge of a scripting language such as P
 
 ### Being a Data Scientist
 
-Data scientist is still a
+The data science domain is known for its set of processes that one need to follow such as data transformation, exploratory data analysis, model selection, model evaluation and finally visualization. A data scientist role is critical to the business whenever we need to deliver a reasonable data driven answerto the management. A data scientist is kind of a helper fucntion to every machine learning and statistician. A machine learning engineer can deploy a recommendation model to suggest a movie to a user. The data scientist will always be part of that recommendation model as he will be responsible for exploratory data analysis and providing raw data to the machine learning engineer. 
 
+A potential data scientist msut be well famalier with the standard scripting languages like *Python* and *R*. Currently, industry prefers the people with some level of work experiece with SQl and any of the scripting language or potentially a Phd student.
+
+[[Source](https://machinelearningmastery.com/become-data-scientist/)] ![image](https://user-images.githubusercontent.com/72654371/187335523-3ebff59a-ce56-4a4d-8800-cc579803a85f.png)
+When we compare a data scientist with statisticians, we can commit on the fact that the a data scientist knows more about a computer programming. However, comapring with a software engineer, a data scientist knows more about statistics tahn the coding.
+
+### Comapre and Contrasting Data Scientist and Statisticians
+
+A data scientist and statistician collects data for a similar reason but the procedure of data collection is different. On the scale of the size, the data collected by a data scientist is masssive, and they spent a significant of time in data transformation and data wrangaling. In contrast a statisticians depends more on a smaller size data collection.
+
+A data scientist formalate problems based on a the accuracy of a model and if accuracy of model is on the lower side then they utilise to tune the paramenters of the dataset. Data scientist do this by calculating R1 score, F1 accuracy and confusion matrix. However, a statisticians take a differnet approch to build and test their model. A statistician generally start with a simple model and then utilise several tools to further tune the basic model.
+
+Generally, a data scientist focuses on a model with good accuracy and later tune the hyperparamenter to further improve the model accuracy, statiscian rather work on a simple model to best fit.
+
+Personally, I prefer to called as a data scientist as it give me an opportunity to conflate several concepts of programming language as well as statistics.
