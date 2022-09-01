@@ -7,7 +7,15 @@ description: " "
 emai: "kpandey@ncsu.edu"
 linkedin_username: "Kamlesh Pandey"
 
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
 
+navbar-links:
+  About Me: "https://kamlespande.github.io/"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
 ###########################################################################################
 theme: "minima"
 
