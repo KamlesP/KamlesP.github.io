@@ -2,7 +2,7 @@
 
 layout: page
 title: "Data Manipulation Project"
-permalink: /file:///D:/Fall%2022/ST%20558/Project%201/Pandey_Kamlesh_ST558_Project1.html/
+permalink: 'file:///D:/Fall%2022/ST%20558/Project%201/Pandey_Kamlesh_ST558_Project1.html'
 
 ---
 
