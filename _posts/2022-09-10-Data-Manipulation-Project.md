@@ -1,6 +1,7 @@
 ---
 title: 'Data Manipulation Project'
 author: "Kamlesh Pandey"
+output: github_document
 ---
 
 # Objective
