@@ -1,5 +1,5 @@
 ---
-title: 'Topic : Data Manipulation'
+title: 'Data Manipulation Project'
 author: "Kamlesh Pandey"
 output: 
   html_document:
