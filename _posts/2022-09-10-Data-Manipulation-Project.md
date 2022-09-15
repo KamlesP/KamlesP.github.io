@@ -1,7 +1,6 @@
 ---
 title: 'Topic : Data Manipulation'
 author: "Kamlesh Pandey"
-date: "9/14/2022"
 output: 
   html_document:
     toc : true
