@@ -36,6 +36,8 @@ Data pre-processing can have several steps based on the data we are processing, 
 
 4. For later visualization purpose we are extracting some numerical characters (which are years of measurement in YY format). Later with those extracted key we are creating a features columns for ears of measuremnt in YYYY format.
 
+#
+
 ```{r, eval=FALSE, include=TRUE}
 sheet1 <- readr::read_csv("https://www4.stat.ncsu.edu/~online/datasets/EDU01a.csv")
 sheet1 <- sheet1 %>% select(ends_with("D"), 'Area_name', 'STCOU') %>%
