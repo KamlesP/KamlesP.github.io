@@ -14,6 +14,8 @@ The overall objective of this project report is to manipulate data that might co
 
 For this project, I have used following R libraries for my data pre processing, manipulation and visulaization purpose. 
 
+[image](Assets/img/1.png)
+
 
 # Data Pre-processing
 
