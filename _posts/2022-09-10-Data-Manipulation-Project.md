@@ -14,14 +14,6 @@ The overall objective of this project report is to manipulate data that might co
 
 For this project, I have used following R libraries for my data pre processing, manipulation and visulaization purpose. 
 
-```{r, eval=FALSE, include=TRUE}
-
-library(readr)
-library(readr)
-library(dplyr)
-library(tidyr)
-
-```
 
 # Data Pre-processing
 
@@ -38,36 +30,7 @@ Data pre-processing can have several steps based on the data we are processing, 
 
 4. For later visualization purpose we are extracting some numerical characters (which are years of measurement in YY format). Later with those extracted key we are creating a features columns for ears of measuremnt in YYYY format.
 
-#
 
-```{r, eval=FALSE, include=TRUE}
-sheet1 <- readr::read_csv("https://www4.stat.ncsu.edu/~online/datasets/EDU01a.csv")
-sheet1 <- sheet1 %>% select(ends_with("D"), 'Area_name', 'STCOU') %>%
-                     rename(area_name = 'Area_name')%>%
-                     mutate_at('STCOU', as.numeric)
-
-# Converting data into long format
-sheet1 <- sheet1 %>% 
-          pivot_longer(cols = ends_with('D'),
-                       names_to = 'Item_id', values_to = 'Value')
-
-# Year Extraction
-last_Two_Digit      <- as.numeric(substr(sheet1$Item_id, 8,9))
-sheet1$Survey       <- substr(sheet1$Item_id,1,3)
-sheet1$ValueType    <- substr(sheet1$Item_id,4,7)
-sheet1$Year         <- NA
-
-# Loop to get year column in YYYY format
-for (i in 1:length(last_Two_Digit)){
-  if (last_Two_Digit[i] < 22){
-    sheet1[i,7] <- paste0(200, last_Two_Digit[i])
-  }
-  else if (last_Two_Digit[i] > 22){
-    sheet1[i,7] <- paste0(19, last_Two_Digit[i])
-  }
-  
-}
-```
 
 
 
