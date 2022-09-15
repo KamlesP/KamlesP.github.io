@@ -1,11 +1,6 @@
 ---
 title: 'Data Manipulation Project'
 author: "Kamlesh Pandey"
-output: 
-  html_document:
-    toc : true
-    toc_float: true
-    code_folding: show
 ---
 
 # Objective
