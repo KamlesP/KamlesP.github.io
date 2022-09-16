@@ -45,7 +45,7 @@ Other potential takeaways from the project is the concept of making customized p
 
 
 
-[Link to my project report](https://github.com/KamlesP/KamlesP.github.io/blob/main/Pandey_Kamlesh_ST558_Project1.pdf)
+[Link to my project report](https://kamlesp.github.io/Pandey_Kamlesh_ST558_Project1.html)
 
 
 Thank You for checking my work!!!!
