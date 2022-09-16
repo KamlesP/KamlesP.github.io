@@ -4,7 +4,7 @@ Apart from my master course work I enjoy playing all sport but Table Tennis is m
 
 
 
-[NCTTA 2022 Regional Event, Atlanta ](https://kamleshp.github.io/20220226134931_IMG_0458.JPG)
+[[NCTTA 2022 Regional Event, Atlanta ](https://kamleshp.github.io/20220226134931_IMG_0458.JPG)]
 
 
 Thank You for checking my work!!
