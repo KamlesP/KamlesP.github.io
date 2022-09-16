@@ -45,7 +45,7 @@ Other potential takeaways from the project is the concept of making customized p
 
 
 
-<a href="Pandey_Kamlesh_ST558_Project1.pdf"> Link of my work report </a>
+<a href="https://drive.google.com/file/d/1dg9vMbXute0QUJB5ceWC18P_OhC-Ri4H/view"> Link of my work report </a>
 
 
 Thank You for checking my work!!!!
