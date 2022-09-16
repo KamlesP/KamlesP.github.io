@@ -10,7 +10,7 @@ The overall objective of this project report is to manipulate data that might co
 
 # Importing Library
 
-For this project, I have used following R libraries for my data pre processing, manipulation and visualization purpose. 
+For this project, I have used R libraries from tidyverse package for my data pre processing, manipulation and *ggplot* for visualization purpose. 
 
 
 # Data Pre-processing
