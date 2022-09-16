@@ -45,7 +45,7 @@ This project will help in writing efficient code in R language. Additionally, th
 Other potential takeaways from the project is the concept of making customized plots for a particular type of dataset with *class*.
 
 
-[Project report can be accessed here](Assets/img/Pandey_Kamlesh_ST558_Project1.html)
+
 
 
 Thank You for checking my work!!!
