@@ -1,7 +1,6 @@
 ---
 title: 'Data Manipulation Project'
 author: "Kamlesh Pandey"
-date: "9/14/2022"
 
 ---
 
