@@ -45,7 +45,7 @@ Other potential takeaways from the project is the concept of making customized p
 
 
 
-<a href="https://www.google.com"> Something </a>
+<a href="Pandey_Kamlesh_ST558_Project1.pdf"> Link of my work report </a>
 
 
 Thank You for checking my work!!!!
