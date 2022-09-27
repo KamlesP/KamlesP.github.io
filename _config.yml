@@ -3,6 +3,7 @@ author: "Kamlesh Pandey"
 description: " "
 
 
+
 # Email and user media
 email: "kpandey@ncsu.edu"
 linkedin_username: "Kamlesh Pandey"
@@ -32,6 +33,8 @@ round-avatar: true
 ######################################
 # --- Colours / background image --- #
 ######################################
+
+theme: minima
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
