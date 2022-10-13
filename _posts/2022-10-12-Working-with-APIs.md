@@ -3,7 +3,7 @@
 
 This project is based on accessing data from APIs and eventually performing analysis on them. For this project, I have Asteroid data information from  NASA API.
 This API has only one end point and two modifications. Th user can input a start and a end date and the API will retrieve data from the server between two date range.
-Final project can be found at [Final Project link](https://sbgadhwala.github.io/ST558_Project2/)
+Final project can be found at [Link](https://sbgadhwala.github.io/ST558_Project2/)
 
 I have used multiple R packages for this project, few of them are listed below:
 1. [httr](https://httr.r-lib.org/) -  For web API
