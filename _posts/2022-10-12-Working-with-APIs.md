@@ -10,7 +10,9 @@ I have used multiple R packages for this project, few of them are listed below:
 3. [lubridate](https://lubridate.tidyverse.org/) - to handel dates in the data 
 4. [ggplot](https://ggplot2.tidyverse.org/) - for visualization
 
-!(https://github.com/KamlesP/KamlesP.github.io/blob/main/Assets/000011.png)
+<img
+  src="/docs/assets/000011.png"
+  style="display: inline-block; margin: 0 auto; max-width: auto">
 
 # Project Workflow
 The first step in data manipulation is to get data. We can get data from a csv file, a SAS dataset, or from a API. To retrive data from API we use GET request, in R GET request handeled by httr package. The data was stored in a nested dictionary format, so I need to go through nested dictionary to get desired data from the json file. Once data available one need to check if the data has any missing value and the data type so that pre processing can be applied on the dataset. In Asteroid dataset there was no missing value but the dates and other numerical features were in string format. SO to convert them into desired format I utilized the concept of explicit coercion. Once data available in correct format we can step toward EDA.
