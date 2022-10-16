@@ -29,10 +29,44 @@ At this point you will have idea about the missing values in the dataset still y
 
 Correlation coefficient can be your best tool, it will give you information the relationship between two variables. Just consider we want to visualize the correlation between two continuous feature column, the best way is to plot them and calcualte perason correaltion coefficient. 
 
+```{r}
+# scatter plot between mpg and hp
+gg <- ggplot(df, aes(x=mpg, y=hp)) + 
+  geom_point(aes(col=cyl, size=gear)) + 
+  geom_smooth(method="loess", se=F) + 
+  xlim(c(05, 50)) + 
+  ylim(c(20, 500)) + 
+  labs(subtitle="MPG Vs HP", 
+       y="Horsepower", 
+       x="Miles per gallon", 
+       title="Scatterplot", 
+       caption = "Source: mtcars")
+
+plot(gg)
+```
+
 <img
   src="/docs/assets/p2.png"
   style="display: inline-block; margin: 0 auto; max-width: auto">
 
+Box plot can be your other tool to carry out EDA with the data. Fiding out outlier in your dataset is a crucial step as that will decide the type of central tendency you want to decide for the dataset. There can be multiple reason for an outliers in the dataset, one potential reason can be incorrect data accumulation. handling outlier is a tricky process but to visualize the data with outlier we can use box plot.
+```{r}
+
+library(ggExtra)
+data(mpg, package="ggplot2")
+
+theme_set(theme_bw())  # pre-set the bw theme.
+mpg_select <- mpg[mpg$hwy >= 35 & mpg$cty > 27, ]
+g <- ggplot(mpg, aes(cty, hwy)) + 
+  geom_count() + 
+  geom_smooth(method="lm", se=F)
+ggMarginal(g, type = "histogram", fill="transparent")
+ggMarginal(g, type = "boxplot", fill="transparent")
+
+```
+<img
+  src="/docs/assets/p3.png"
+  style="display: inline-block; margin: 0 auto; max-width: auto">
 
 
 
