@@ -20,7 +20,19 @@ Before starting a EDA, one should ask to the purpose of the expeiment or the dat
 You should start the exploratory data analysis with exploring if tht dataset has any missing value or not. If dataset has large number of input features, it is useful to count the number of missing values and visualy plot them. In mtcar dataset no missing value reported.
 
 ```{r}
-
-sum(is.na(mtcar))
-
+sum(is.na(mtcars))
 ```
+Just condiser an idealy scenario when our dataset has more than 50% missing values. Fot such kind of sparse datset one possible solution can be to exclude the dataset from the main dataset. But if we simply remove the dataset then there high possibility that we introduce a bias in our dataset. So handling missing data is not a straightr forward case to understand more you can explore more about a separate bracnh of statistics Imputation.
+
+## Summary Statistics of Data
+At this point you will have idea about the missing values in the dataset still you don't have much idea about each feature columns available in the dataset. Potentially you need to have inforamtions like type of variable (continuous, discrete or categorical), mean, median, IQR, min and max value for the respective columns. These inforamtions will help in identifying type of visualization you can use to represent the data.
+
+Correlation coefficient can be your best tool, it will give you information the relationship between two variables. Just consider we want to visualize the correlation between two continuous feature column, the best way is to plot them and calcualte perason correaltion coefficient. 
+
+<img
+  src="/docs/assets/p2.png"
+  style="display: inline-block; margin: 0 auto; max-width: auto">
+
+
+
+
