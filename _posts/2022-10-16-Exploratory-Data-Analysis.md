@@ -1,7 +1,25 @@
-We oftern come across a situation where we want to analyse an experiment, we are looking for an answr of how several input parameters are affecting the final output of the process? First step in this process to have a dataset, if not then we need to genearte datasets either by carring out surveys or if we doing out an experiment then we can generate simulated data from the computational softwares like COMSOL, ANSYS and Simulink. Once we have a dataset then we can process for EDA( exploratory data analysis) to answer common questions related to the experiment,
+We oftern come across a situation where we want to analyse an experiment, we are looking for an answr of how several input parameters are affecting the final output of the process? First step in this process to have a dataset, if not then we need to genearte datasets either by carring out surveys or if we doing out an experiment then we can generate simulated data from the computational softwares like COMSOL, ANSYS and Simulink. Once we have a dataset then we can process for EDA( exploratory data analysis) to answer common questions related to the experiment.
 
 # Exploratory Data Analysis
 In simple term, EDA referes to performing visualization and identifying informations and pattern about the dataset. This information can be anything such as a pattern or tread in the dataset, missing values, correlation coefficeints between the parameters and potential outliers. These features are important for our hypothesis testing and coming out with an probablistic model which can help a firm in increasing sales and profit from their products.
+Other way to understand, EDA can be cosnidered a potentail way to to reveal information about beyond fomal modeling and hypothesis testing. Orginally developed by an American scientist in 1970s, now one of the most powerful tool in data science and Machine learning field.
+
+Now when we discussing about EDA it is also important that you should know the imporatnce of EDA. In general. data scientists use this tool to corroborate the outcome and their applicability in desired business goals. Additionally, it also helps stakeholder to check if they are taking a right decision or not. Once we are done with EDA the outcome can be the raw data for building machine learning models.
+
+## Type of EDA
+
+#### - Univariate non-graphical
+Simplest type of data analysis where we analyze a single variable. Because univariate has a single variable we are not bothered to think about causation or correlation. The manin purpose is to find a pattern and describe the data.
+
+#### -Univariate graphical
+Graphical tools are key for exploratory data analysis, common types of methods are box plot, stem-leaf, histogram plot 
+
+#### -Multivariate, non-graphical
+Multivariate non graphical generally show the relationship between two or more variables through statistical techniques
+
+#### Multivariate, graphical
+This is used to develop a relationship between two or more variables. Mostly for multivariate analysis we use bar chart, scatter, heat map and bubble plot.
+
 
 # Before EDA(Exploratory Data Analysis)
 
@@ -16,7 +34,7 @@ Before starting a EDA, one should ask to the purpose of the expeiment or the dat
  
  # Possible Steps in EDA(Exploratory Data Analysis) 
  
- ## Missing Data
+## Missing Data
 You should start the exploratory data analysis with exploring if tht dataset has any missing value or not. If dataset has large number of input features, it is useful to count the number of missing values and visualy plot them. In mtcar dataset no missing value reported.
 
 ```{r}
@@ -67,6 +85,30 @@ ggMarginal(g, type = "boxplot", fill="transparent")
 <img
   src="/docs/assets/p3.png"
   style="display: inline-block; margin: 0 auto; max-width: auto">
+
+# Exploratory Data Analysis Tools
+
+Two most common programming languages used for EDA includes:
+
+## Python
+[Python](https://www.python.org/) is a high level object orientated programming with built-in data structure make it very attractive for rapid application development and scripting language.
+
+## R
+R is an open sourcr programming language and provides free software environment for statistical computing. R language is widely used by all statisticians in data science for data analysis.
+
+Personally, I prefer R for data analysis than Python.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
