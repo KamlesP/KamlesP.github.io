@@ -24,8 +24,9 @@ This is used to develop a relationship between two or more variables. Mostly for
 
 # Before EDA(Exploratory Data Analysis)
 
-Before starting an EDA, one should ask to the purpose of the experiment or the data i.e., understanding at high level. Based on the type of insights you want from the dataset the type of EDA might differ. Once you have the high-level understanding then your focus must shift to understand more about the dataset i.e., number of columns and rows in the dataset, size of dataset. Is the size too big, do we need additional computational power to process the dataset, you should have idea of such question before jumping into EDA.
- Below I have attached mtcars dataset from the R in built datasets. We can see that the dataset has 32 rows and 11 columns.
+Before starting an EDA, one should ask to the purpose of the experiment or the data i.e., understanding at high level. Based on the type of insights you want from the dataset the type of EDA might differ. Once you have the high-level understanding then your focus must shift to understand more about the dataset i.e., number of columns and rows in the dataset, size of dataset. Is the size too big, do we need additional computational power to process the dataset, you should have idea of such question before jumping into EDA.  
+
+Below I have attached mtcars dataset from the R in built datasets. We can see that the dataset has 32 rows and 11 columns.
 
  
 <img
