@@ -19,6 +19,15 @@ Hypothesis testing are the most common testing criteria for selecting variables 
 There is a inherent diffence between the significance and inforamtion criteria. While a significance criteria is used for decising which preditor variable should be included or excluded form the model, the focus of information criteria is on selecting a model from a set of plausible models based on the criteria. Since including more predictor in the model will slightly increase the model fit, the informaion criterias were deveoped to penalize the apperant model for the complexicity. 
 AIC and BIC method are used to compare two models. These methods are also used to select one of the best model from all paussible models. For example, AIC and BIC creterias are commonly used in case of best subset selection out of 2^k models (for K number of predictor varibales).
 
+<img
+  src="/docs/assets/bic.png"
+  style="display: inline-block; margin: 0 auto; max-width: auto">
+
 ## Peanalized Likelihood
 Model selection using a penality methods are very popular. Two type of penalized method are common, LASSO (Least angle selection and shrinkage operator) and RIDGE. These regression model are very easy to implement PROC GLMSELECT in case of SAS and in R using glmnet package. These tools allows to fit linear model with penalties and tune the lambda (shrinkage parameter). 
 Penaly methods are gemerally preferred in high dimesntionality model i.e predictor variable far exceed the number of sample size(k>>n) . In case of a low domensional problem  LASSO is not preferred, and people are more interested in interpretable regression coefficients. 
+
+<img
+  src="/docs/assets/lambda.png"
+  style="display: inline-block; margin: 0 auto; max-width: auto">
+  
