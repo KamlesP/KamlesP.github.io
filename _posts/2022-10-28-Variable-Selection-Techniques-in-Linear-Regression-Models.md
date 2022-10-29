@@ -12,8 +12,11 @@ The fundamental interpretation of linear regression coeffieicnts in a linear reg
 
 # Creteria for Selecting Variables
 
-## Significance Criteria
-Hypothesis testing are the most common testing criteria for selecting variables in modeling problems. 
+## Forward Selection
+This method add variables in the model until there is no remaining predictor variable (outside the model) that can add any significanct to the dependent variable. Forward selection method starts with no variable and continuously adds new variable. A test statics is used to comapre the performance of the model. These test statistics can be a R-square for a continuous dependent variable. The model with largest test statistic value is considered as a best model. 
+
+## Backward Selection
+This method deletes variables from the model untill all variable contribute something significant to the model. A test statistics is used and and variables deleted from the model one by one. backward selection starts with all variables in first place and then variables deleted one by one untill all the varaibles remaining in the model have a test statistics value greater than the threshold.
 
 ## Information Criteria:
 There is a inherent diffence between the significance and inforamtion criteria. While a significance criteria is used for decising which preditor variable should be included or excluded form the model, the focus of information criteria is on selecting a model from a set of plausible models based on the criteria. Since including more predictor in the model will slightly increase the model fit, the informaion criterias were deveoped to penalize the apperant model for the complexicity. 
@@ -31,3 +34,7 @@ Penaly methods are gemerally preferred in high dimesntionality model i.e predict
   src="/docs/assets/lambda.png"
   style="display: inline-block; margin: 0 auto; max-width: auto">
   
+
+
+# Conclusion
+Finiding best set of subset is an expansive process in terms of time and computation. The pressing aim to have better model with good test statitics on a unseen dataset. These methods should be prmarily considered as a guiding purpose. 
