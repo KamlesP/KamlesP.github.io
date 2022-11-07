@@ -44,3 +44,23 @@ paste0("Total number of missing values in the dataset " , sum(is.na(df)))
 df <- df %>% select(everything(), -Date)
 
 ```
+## Correlation Plot  
+Correlation plot is to check how predictor are related with the response variable. Ideally, there should not be a correlation among the predictors. When multicollinearity is present, other predictor will not provide unique or independent information in the regression model.  
+From the plot, hours, temperature has strong positive correlation with the number of rental bike. Also rainfall has a negative correlation with the response variable which is very well estimation of real life scenario.
+We can also estimate that some predictor variables are highly correlated with wach other such as temperature and dew point.  
+Common way to detect multidisciplinary among the variable is VIF(variable inflation factor). From the bar plot Temperature, Humidity and Dew point has very high vif. This behavior we can be corroborated from the correlation plot where Temperature, Humidity and Dew Point are strongly correlated to each other.  
+
+## Histogram Plot  
+To understand the distribution of numerical features and to generate a frequency table for all numeric variable.
+```{r, warning=FALSE, message=FALSE}
+par(mfrow = c(4,2))
+par(mar = c(3,3,3,3)) # set margin for plots
+hist(df$temperature_c)
+hist(df$humidity_percent)
+hist(df$wind_speed_ms)
+hist(df$visibility_10m)
+hist(df$dew_point_c)
+hist(df$solar_rad)
+hist(df$rainfall_mm)
+hist(df$snowfall_cm)
+```
