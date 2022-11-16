@@ -14,7 +14,7 @@ For tree based modeling we used Random forest and Boosting. Since we have huge n
 For boosting, we used a tune grid params to get best value for number of trees, depth for a constant shrinkage paramter.
 
 ## R Markdown Automation  
-Automation part of this project can be cosnidered as the key component. Building model for one data channel and extending same of all other data channel is accquired by using powerful R markdonw
+Automation part of this project can be cosnidered as the key component. Building model for one data channel and extending same of all other data channel is accquired by using powerful R markdonw. 
 
 All analysis can be found here:
 
