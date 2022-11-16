@@ -18,9 +18,9 @@ Automation part of this project can be cosnidered as the key component. Building
 
 All analysis can be found here:
 
-[Technology articles analysis here](data_channel_is_tech.html)  
-[Lifestyle articles analysis here](data_channel_is_lifestyle.html)  
-[Entertainment articles analysis here](data_channel_is_entertainment.html)  
-[Business articles analysis here](data_channel_is_bus.html)  
-[Social Media articles analysis here](data_channel_is_socmed.html)  
-[World article analysis here](data_channel_is_world.html)  
+[Technology articles analysis here](https://sbgadhwala.github.io/ST558_Project3/data_channel_is_tech.html)  
+[Lifestyle articles analysis here](https://sbgadhwala.github.io/ST558_Project3/data_channel_is_lifestyle.html)  
+[Entertainment articles analysis here](https://sbgadhwala.github.io/ST558_Project3/data_channel_is_entertainment.html)  
+[Business articles analysis here](https://sbgadhwala.github.io/ST558_Project3/data_channel_is_bus.html)  
+[Social Media articles analysis here](https://sbgadhwala.github.io/ST558_Project3/data_channel_is_socmed.html)  
+[World article analysis here](https://sbgadhwala.github.io/ST558_Project3/data_channel_is_world.html)  
