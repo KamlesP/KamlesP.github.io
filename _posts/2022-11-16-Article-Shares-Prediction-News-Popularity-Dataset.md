@@ -17,6 +17,7 @@ For boosting, we used a tune grid params to get best value for number of trees, 
 Automation part of this project can be cosnidered as the key component. Building model for one data channel and extending same of all other data channel is accquired by using powerful R markdonw
 
 All analysis can be found here:
+
 [Technology articles analysis here](data_channel_is_tech.html)  
 [Lifestyle articles analysis here](data_channel_is_lifestyle.html)  
 [Entertainment articles analysis here](data_channel_is_entertainment.html)  
